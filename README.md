@@ -28,7 +28,7 @@ Flixster is an app that allows users to browse movies from the [The Movie Databa
 <img src="flixster_walkthrough.gif" width=250><br>
 
 ### Notes
-Describe any challenges encountered while building the app.
+There was an issue that was caused by trying to type cast a RelativeLayout as an imageView. This was resolved by ensuring that the correct IDs were referencing the correct views. 
 
 ### Open-source libraries used
 
