@@ -20,7 +20,7 @@
 
 
 
-<img src="https://imgur.com/0UnRbcs" width=250><br>
+<img src="flixster_walkthrough_part2" width=250><br>
 
 ### Notes
 
