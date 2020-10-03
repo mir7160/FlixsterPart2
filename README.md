@@ -1,4 +1,4 @@
-## Flix Part 2
+## Flixster Part 2
 
 ### User Stories
 
@@ -20,7 +20,7 @@
 
 
 
-<img src="flixster_walkthrough_part2" width=250><br>
+<img src="https://github.com/mir7160/FlixsterPart2/blob/master/flixster_walkthrough_part2.gif" width=250><br>
 
 ### Notes
 
