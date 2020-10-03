@@ -22,6 +22,8 @@ import org.parceler.Parcels;
 
 import java.util.List;
 
+import jp.wasabeef.glide.transformations.RoundedCornersTransformation;
+
 public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
 
     Context context;
@@ -76,6 +78,13 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
             tvTitle.setText(movie.getTitle());
             tvOverview.setText(movie.getOverview());
             Glide.with(context).load(movie.getPosterPath()).into(ivPoster);
+            int radius = 30; // corner radius, higher value = more rounded
+            int margin = 10;
+           /* Glide.with(context)
+                    .load(movie.getPosterPath())
+                    .transform(new RoundedCornersTransformation(radius, margin))
+                    .into(ivPoster);
+*/
 
             //1) register click listener on the whole row
             //2) navigate to a new activity when tapped
